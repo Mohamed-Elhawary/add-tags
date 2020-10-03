@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>	
+        <meta charset="UTF-8">	
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <title>Add Tags - Add Your Search Tag</title>	
+    </head>
+    <body>
+         <div class="container">
+             <h3>Please Add your Search Tags</h3>
+             <div class="content">
+                <div class="tags-and-input">
+                    <span class="tag" data-value="your_tag">your_tag<i class="fas fa-times-circle"></i></span>
+                    <input type="text" class="input" autocomplete="false">
+                </div>
+             </div>
+             <div class="errors">
+                <span class="error empty">Can not add empty Tag</span>
+                <span class="error syntax">please don't add specific characters or numbers just Alphapetical Letters ONLY.</span>
+                <span class="error underscore">Please Don't Start the tag with (_)</span>
+                <span class="error already">This tag is already added</span>
+                <span class="error max_chars">You have reach the maximum limit of characters per Tag</span>
+                <span class="error max_tags">You have reach the maximum limit of Tags</span> 
+             </div>
+
+             <div class="details">
+                <div class="char-length"><span></span> Characters Left</div>
+                <div class="tags-length"><span></span> Tags Left</div>
+             </div>
+
+             <button class="add_tags">Add Tags</button>
+             
+             <div class="results">
+                 <div class="results-errors">Can't add No Tags</div>
+                 <div class="array">
+                   <!--   Your Results Is : [
+                     <div class="result"><span class="index">1</span><span class="text">text</span></div>
+                     <div class="result"><span class="index">1</span><span class="text">text</span></div>
+                     <div class="result"><span class="index">1</span><span class="text">text</span></div>
+                     <div class="result"><span class="index">1</span><span class="text">text</span></div>
+                     <div class="result"><span class="index">1</span><span class="text">text</span></div>    
+                     ] 
+                     <span><i class="fas fa-plus"></i></span>
+                    -->
+                 </div>
+             </div>
+             <footer>
+                <span>&#64; All Copyrights are reserved 2020</span>
+                <p>Developed by _ <span>HaWaRy</span>_</p>
+            </footer>
+         </div> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+  </body>
+</html>
