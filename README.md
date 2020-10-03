@@ -1,4 +1,4 @@
-# Chat Me
+# Add Tags
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e8d227b-e33f-490f-aef2-c747392ddc1e/deploy-status)](https://app.netlify.com/sites/addtags/deploys)
 
