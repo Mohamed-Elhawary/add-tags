@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6e8d227b-e33f-490f-aef2-c747392ddc1e/deploy-status)](https://app.netlify.com/sites/addtags/deploys)
 
-Add Tags is a Box Engine let you add your Search Tags for your Project and control them like Twitter. 
+Add Tags is an engine that allows you to add your search tags for your project and control them like Twitter.
   
 ![Screenshot](preview.png)
 
